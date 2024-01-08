@@ -1,0 +1,92 @@
+/* VARIBILE COLORE  */
+:root{
+    --color-P: #ECE2D0;
+    --color-S: #9F86C0;
+    --color-A: #03B5AA;
+}
+/* FONT PER I TIPI DI TESTO  */
+*{
+    font-family: 'Overlock SC', sans-serif; 
+}
+
+.font-title{
+    font-family: 'Exo', sans-serif;
+}
+
+/* COLORE TESTO  */
+.color-P{
+    color: var(--color-P);
+}
+.color-S{
+    color: var(--color-S);
+}
+.color-A{
+    color: var(--color-A);
+}
+
+/* BACKGROUND COLOR  */
+.bg-P{
+    background-color: var(--color-P);
+}
+.bg-S{
+    background-color: var(--color-S);
+}
+.bg-A{
+    background-color: var(--color-A);
+}
+
+
+/* NAVBAR  */
+
+.nav-custom{
+    backdrop-filter: blur(10px);
+    background-color: #aa74f171;
+    
+}
+
+.transition{
+    transition: 0.5s;
+}
+
+/* BOTTONI NAVBAR  */
+
+.btn-custom{
+    padding: 3px 3px;
+    margin: 2px;
+    border: 2px solid var(--color-A);
+    border-radius: 10px;
+}
+
+
+
+/* CATEGORIE  */
+
+.border-custom{
+    border-bottom: 1px solid var(--color-P)
+}
+
+.img-category{
+    border: 3px solid var(--color-P);
+    padding: 5px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 750px){
+    /* NAVBAR */
+    .nav-custom{
+        margin: 5vh 20vw;
+        border: 2px solid var(--color-A);
+        border-radius: 10px;
+    }
+    
+}
