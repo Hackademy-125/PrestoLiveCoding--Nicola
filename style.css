@@ -35,6 +35,34 @@
     background-color: var(--color-A);
 }
 
+/* HEADER  */
+
+/* TITOLO HEADER  */
+
+.animationPulse{
+    animation: pulse 1s;
+}
+
+@keyframes pulse {
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(0.95);
+    }
+    50%{
+        transform: scale(1.10);
+    }
+    75%{
+        transform: scale(0.95);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+    
+
+
 
 /* NAVBAR  */
 
@@ -48,7 +76,7 @@
     transition: 0.5s;
 }
 
-/* BOTTONI NAVBAR  */
+/* BOTTONI HEADER  */
 
 .btn-custom{
     padding: 3px 3px;
@@ -56,6 +84,14 @@
     border: 2px solid var(--color-A);
     border-radius: 10px;
 }
+
+/* ULTIMI ANNUNCI  */
+
+.card:hover{
+    border: 3px double var(--color-A) ;
+    transform: scale(1,1);
+}
+
 
 
 
@@ -72,6 +108,19 @@
     border-radius: 50%;
 }
 
+
+/* NUMERI UTENTI MESSSAGGI PRODOTTI */
+
+.box-number{
+    height: 100px;
+    background-color:#9f86c0a4;
+    border-radius: 20px;
+    border: 5px double var(--color-S);
+    font-size: 20px;
+    align-items: center;
+
+
+}
 
 
 

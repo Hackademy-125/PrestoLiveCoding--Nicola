@@ -27,7 +27,7 @@
     <!-- INIZIO NAVBAR  -->
     <nav class="navbar navbar-expand-lg fixed-top transition">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Presto.it</a>
+            <a class="navbar-brand" href="index.html">Presto.it</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -36,7 +36,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Prodotti</a>
@@ -47,12 +47,13 @@
                             Categorie
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Uova</a></li>
+                            <li><a class="dropdown-item" href="#">Latticini</a></li>
+                            <li><a class="dropdown-item" href="#">Salumi</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Altri Prodotti</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -79,7 +80,7 @@
     <div class="container-fluid bg-P">
         <div class="row justify-content-center">
             <div class="col-12 col-md-4 vh-100 d-flex align-items-center justify-content-center flex-column p-5">
-                <h1 class="text-white display-3 font-title text-center">
+                <h1 class="text-white display-3 font-title text-center animationPulse">
                     PRESTO
                 </h1>
                 <p>
@@ -91,43 +92,60 @@
                 </div>
             </div>
             <div class="col-12 col-md-4 d-lg-flex d-none justify-content-center align-items-center">
-                <img src="https://picsum.photos/400" alt="">
+                <img src="Media/prosciutti.jpg" alt="prosciutti appesi">
             </div>
         </div>
     </div>
     <!-- FINE HEADER  -->
 
     <div class="p-5">
-        <p class="fs-3">
+        <p class="fs-3 text-center">
             "Scopri l'arte di un acquisto impeccabile su PRESTO, dove ogni prodotto è una promessa di stile e qualità, pronto a trasformare i tuoi desideri in realtà con un solo clic!"
         </p>
     </div>
+
+    <!-- INIZIO ANNUNCI  -->
+
+    <div class="container">
+        <div id="ultimiAnnunciWrapper" class="row justify-content-evenly">
+            <div class="col-12">
+                <h2 class="display-3 font-title text-center my-5 border-custom color-P">
+                    NUOVI ARRIVI
+                </h2>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- FINE ANNUNCI  -->
 
     <!-- SEZIONE CATEGORIE  -->
     <div class="container">
         <div class="row justify-content-evenly">
             <div class="col-12">
-                <h2 data-aos="flip-up" data-aos-duration="1000" class="display-3 font-title text-center my5 color-P border-custom">
+                <h2 data-aos="flip-up" data-aos-duration="1000" class="display-3 font-title text-center my-5 color-P border-custom">
                     CATEGORIE
                 </h2>
             </div>
             <div class="col-5 col-lg-3 mx-1 my-3">
-                <img data-aos="fade-down-right" data-aos-duration="1000" data-aos-delay="100" class="img-category" src="https://picsum.photos/200" alt="">
+                <img data-aos="fade-down-right" data-aos-duration="1000" data-aos-delay="100" class="img-category" src="Media/farina.jpg" alt="farina">
             </div>
             <div class="col-5 col-lg-3 mx-1 my-3">
-                <img data-aos="fade-down-right" data-aos-duration="1000" data-aos-delay="100" class="img-category" src="https://picsum.photos/201" alt="">
+                <img data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100" class="img-category" src="Media/formaggio.jpg" alt="formaggio">
             </div>
             <div class="col-5 col-lg-3 mx-1 my-3">
-                <img data-aos="fade-down-right" data-aos-duration="1000" data-aos-delay="100" class="img-category" src="https://picsum.photos/202" alt="">
+                <img data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100" class="img-category" src="Media/latte.jpg" alt="latte">
             </div>
             <div class="col-5 col-lg-3 mx-1 my-3">
-                <img data-aos="fade-down-right" data-aos-duration="1000" data-aos-delay="100" class="img-category" src="https://picsum.photos/203" alt="">
+                <img data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="100" class="img-category" src="Media/prosciutto.jpg" alt="prosciutto">
             </div>
             <div class="col-5 col-lg-3 mx-1 my-3">
-                <img data-aos="fade-down-right" data-aos-duration="1000" data-aos-delay="100" class="img-category" src="https://picsum.photos/204" alt="">
+                <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="img-category" src="Media/salame.jpg" alt="salame">
             </div>
             <div class="col-5 col-lg-3 mx-1 my-3">
-                <img data-aos="fade-down-right" data-aos-duration="1000" data-aos-delay="100" class="img-category" src="https://picsum.photos/205" alt="">
+                <img data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="100" class="img-category" src="Media/uova.jpg" alt="uova">
             </div>
         </div>
     </div>
@@ -137,17 +155,22 @@
     <!-- SEZIONE NUMERI  -->
     <div class="container my-5">
         <div class="row justify-content-evenly">
-            <div class="col-12 col-md-3 d-flex justify-content-center">
+            <div>
+                <h3 class="col-12 display-3 text-center color-P border-custom ">
+                    I NOSTRI NUMERI
+                </h3>
+            </div>
+            <div id="primoBox" class="col-12 col-md-3 d-flex justify-content-center box-number">
                 <p>
                     <span id="numUtenti">0</span>+ Utenti
                 </p>
             </div>
-            <div class="col-12 col-md-3 d-flex justify-content-center">
+            <div class="col-12 col-md-3 d-flex justify-content-center box-number">
                 <p>
-                    <span id="numProdotti">0</span>+ Messaggi
+                    <span id="numProdotti">0</span>+ Prodotti
                 </p>
             </div>
-            <div class="col-12 col-md-3 d-flex justify-content-center">
+            <div class="col-12 col-md-3 d-flex justify-content-center box-number">
                 <p>
                     <span id="numMessaggi">0</span>+ Messaggi
                 </p>
