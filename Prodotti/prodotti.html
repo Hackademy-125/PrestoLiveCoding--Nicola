@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Presto -PRODOTTI-</title>
+
+    <!-- AoS CSS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo&family=Overlock+SC&display=swap" rel="stylesheet">
+
+    <!-- ICONE -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- BOOTSTRAP  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- MY CSS  -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="prodotti.css">
+</head>
+
+<body>
+
+    <!-- INIZIO NAVBAR  -->
+    <nav class="navbar navbar-expand-lg fixed-top transition">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Presto.it</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prodotti.html">Prodotti</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categorie
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Uova</a></li>
+                            <li><a class="dropdown-item" href="#">Latticini</a></li>
+                            <li><a class="dropdown-item" href="#">Salumi</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Altri Prodotti</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Chi Siamo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contatti</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link p-0" href="#"><i class="bi bi-person-fill fs-4"></i></a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link p-0" href="#"><i class="bi bi-cart-fill fs-4"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- FINE NAVBAR  -->
+
+    <!-- INIZIO FILTRI  -->
+    <div class="container-fluid inizio-sezione">
+        <div class="row">
+            <!-- SEZIONE FILTRI  -->
+            <div class="col-3">
+                <h2 class="display-5 text-center border-custom">FILTRI</h2>
+
+                <!-- FILTRO CATEGORIA  -->
+                <h5 class="my-4 color-A border-custom-filtri">Filtro categorie</h5>
+                <div id="radioWrapper" class="border-custom-filtri">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="All" checked>
+                        <label class="form-check-label" for="All">
+                          Tutte le categorie
+                        </label>
+                    </div>
+                </div>
+
+                <!-- FILTRO PREZZO  -->
+                <div class="border-custom-filtri">
+                    <h5 class="my-4 color-A">Filtro per Prezzo</h5>
+                    <label id="priceLabel" for="inputPrice" class="form-label"></label>
+                    <input type="range" class="form-range" id="inputPrice" min="" max="" value="">
+                </div>
+
+                <!-- FILTRO PER PAROLA  -->
+                <div class="mb-3 border-custom-filtri">
+                    <label for="inputWord" class="form-label">Search</label>
+                    <input type="text" class="form-control" id="inputWord" placeholder="Search">
+                  </div>
+
+
+
+            </div>
+
+
+
+
+
+            <!-- SEZIONE PRODOTTI  -->
+            <div class="col-9">
+                <h2 class="display-5 text-center border-custom">PRODOTTI</h2>
+                <div class="container">
+                    <div id="prodottiWrapper" class="row">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- FINE FILTRI  -->
+
+
+
+
+
+
+
+
+
+    <!-- AoS JS  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Inizializzazione AoS  -->
+    <script>
+        AOS.init();
+    </script>
+    <!-- BOOTSTRAP JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- MY JS  -->
+    <script src="prodotti.js"></script>
+</body>
+
+</html>

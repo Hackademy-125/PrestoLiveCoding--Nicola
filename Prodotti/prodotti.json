@@ -1,0 +1,76 @@
+[{
+    "cibo": "Fiorentina",
+    "regione": "Toscana",
+    "categoria": "Carne",
+    "prezzo": 90
+  }, {
+    "cibo": "Cotoletta",
+    "regione": "Lombardia",
+    "categoria": "Carne",
+    "prezzo": 20
+  }, {
+    "cibo": "Arancini",
+    "regione": "Sicilia",
+    "categoria": "Fritto",
+    "prezzo": 5
+  }, {
+    "cibo": "Risotto alla milanese",
+    "regione": "Lombardia",
+    "categoria": "Pasta",
+    "prezzo": 35
+  }, {
+    "cibo": "Pizza",
+    "regione": "Campania",
+    "categoria": "Farinacei",
+    "prezzo": 10
+  }, {
+    "cibo": "Cappelletti",
+    "regione": "Emilia-Romagna",
+    "categoria": "Pasta",
+    "prezzo": 8
+  }, {
+    "cibo": "Cannoli",
+    "regione": "Sicilia",
+    "categoria": "Dolce",
+    "prezzo": 6
+  }, {
+    "cibo": "Mascarpone",
+    "regione": "Emilia-Romagna",
+    "categoria": "Dolce",
+    "prezzo": 6
+  }, {
+    "cibo": "Panigacci",
+    "regione": "Toscana",
+    "categoria": "Farinacei",
+    "prezzo": 2
+  }, {
+    "cibo": "Panettone",
+    "regione": "Lombardia",
+    "categoria": "Dolce",
+    "prezzo": 15
+  }, {
+    "cibo": "Pasta Fritta",
+    "regione": "Campania",
+    "categoria": "Fritto",
+    "prezzo": 3
+  }, {
+    "cibo": "Mozzarella di Bufala",
+    "regione": "Campania",
+    "categoria": "Latticini",
+    "prezzo": 4
+  }, {
+    "cibo": "Pasta di Mandorla",
+    "regione": "Sicilia",
+    "categoria": "Dolce",
+    "prezzo": 20
+  }, {
+    "cibo": "Gnocchi alla Sorrentina",
+    "regione": "Campania",
+    "categoria": "Pasta",
+    "prezzo": 17
+  }, {
+    "cibo": "Lardo di Colonnata",
+    "regione": "Toscana",
+    "categoria": "Carne",
+    "prezzo": 22
+  }]

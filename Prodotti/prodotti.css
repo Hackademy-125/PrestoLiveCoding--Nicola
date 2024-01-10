@@ -1,0 +1,59 @@
+/* PAGINA PRODOTTI  */
+
+/* VARIBILE COLORE  */
+:root{
+    --color-P: #ECE2D0;
+    --color-S: #9F86C0;
+    --color-A: #03B5AA;
+}
+/* FONT PER I TIPI DI TESTO  */
+*{
+    font-family: 'Overlock SC', sans-serif; 
+}
+
+.font-title{
+    font-family: 'Exo', sans-serif;
+}
+
+/* COLORE TESTO  */
+.color-P{
+    color: var(--color-P);
+}
+.color-S{
+    color: var(--color-S);
+}
+.color-A{
+    color: var(--color-A);
+}
+
+/* BACKGROUND COLOR  */
+.bg-P{
+    background-color: var(--color-P);
+}
+.bg-S{
+    background-color: var(--color-S);
+}
+.bg-A{
+    background-color: var(--color-A);
+}
+
+
+body{
+    background-color: var(--color-P);
+}
+
+.border-custom{
+    border: 2px solid var(--color-A);
+    border-radius: 20px;
+}
+
+.border-custom-filtri{
+    border: 2px solid var(--color-S);
+    border-radius: 10px;
+    padding: 8px;
+    margin: 20px;
+}
+
+.inizio-sezione{
+    margin-top: 115px ;
+}
