@@ -85,6 +85,12 @@
     border-radius: 10px;
 }
 
+.btn-custom:hover{
+    color: black;
+    background-color: var(--color-A);
+    
+}
+
 /* ULTIMI ANNUNCI  */
 
 .card:hover{
@@ -122,6 +128,38 @@
 
 }
 
+
+/* SWIPER   */
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+  .boxRecensione{
+    height: 100%;
+    background-color: var(--color-S);
+    border-radius: 20px;
+  }
+
+  .img-recensione{
+    width: 70px !important;
+    border: 2px solid var(--color-A);
+    border-radius: 50%;
+    padding: 5px;
+  }
 
 
 @media screen and (min-width: 750px){
